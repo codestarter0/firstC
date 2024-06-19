@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){
+    int length,breadth; 
+    // int area = length*breadth;
+    printf("the value of lenght is \n ");
+    scanf("%d",&length);
+    
+    printf("the value of breadth is \n ");
+    scanf("%d",&breadth);
+    printf("the arae  of rectangle is %d", length*breadth);
+
+    return 0;
+}
