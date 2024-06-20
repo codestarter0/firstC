@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+int main(){
+    int principal,rate,year;
+    int simpleinterset = (principal*rate*year)/100;
+    printf("the value of simpleinterset %d",simpleinterset);
+
+
+    return 0;
+}
