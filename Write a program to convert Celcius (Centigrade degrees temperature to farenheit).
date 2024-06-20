@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    float celsius = 1000, Fahrenheit;
+
+    Fahrenheit = (celsius * 9 / 5) + 32;
+
+    printf("the value temperature calsius to Fahrenheit is %f", Fahrenheit);
+    return 0;
+}
