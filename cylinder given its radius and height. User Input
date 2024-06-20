@@ -1,0 +1,16 @@
+ #include <stdio.h>
+
+int main()
+{
+   int radius;
+   float pie = 3.14;
+   int height ;
+   float area = pie * radius * radius * height;
+   printf("the radius of cylinder \n",radius);
+   scanf("%d",&radius);
+   printf("the height of cylinder is \n",height);
+   scanf("%d",&height);
+    printf("the voulme of cylinder is %f\n", pie * radius * radius * height);
+
+   return 0;
+}
