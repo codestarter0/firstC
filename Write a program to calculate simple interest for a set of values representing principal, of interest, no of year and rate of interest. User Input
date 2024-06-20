@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int principal, rate, year;
+    int simpleinterset = (principal * rate * year) / 100;
+    printf("the value of principal is \n", principal);
+    scanf("%d", &principal);
+    printf("the value of rate is \n", rate);
+    scanf("%d", &rate);
+    printf("the value of year is \n", year);
+    scanf("%d", &year);
+    printf("the value of simpleinterest is %d",(principal * rate * year) / 100);
+
+    return 0;
+}
