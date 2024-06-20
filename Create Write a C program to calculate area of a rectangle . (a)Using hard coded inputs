@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    int length= 8, breadth=8;
+    // int area = length * breadth;
+    printf("the arae  of rectangle is %d", length * breadth);
+
+    return 0;
+}
