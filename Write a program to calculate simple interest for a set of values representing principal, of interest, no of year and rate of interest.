@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    int principal,rate,year;
+    int principal= 500,rate= 2,year =3;
     int simpleinterset = (principal*rate*year)/100;
     printf("the value of simpleinterset %d",simpleinterset);
 
